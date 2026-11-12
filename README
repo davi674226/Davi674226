@@ -82,7 +82,4 @@ minimize.MouseButton1Click:Connect(function()
     speedBox.Visible = not hidden
     apply.Visible = not hidden
     frame.Size = hidden and
-        UDim2.new(0, 240, 0, 40) or
-        UDim2.new(0, 240, 0, 190)
-    minimize.Text = hidden and "+" or "-"
-end)
+        UDi
